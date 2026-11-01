@@ -1,0 +1,38 @@
+{
+  "name": "chess-master-app",
+  "version": "1.0.0",
+  "description": "Full-stack Chess app with AI, Local 2-Player, and Realtime Online Multiplayer",
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "vite",
+    "build": "vite build",
+    "dev": "concurrently \"node server/index.js\" \"vite\""
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4",
+    "chess.js": "^1.0.0-beta.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
